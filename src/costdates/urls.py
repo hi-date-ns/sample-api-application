@@ -4,7 +4,7 @@ from rest_framework.routers import DefaultRouter
 from .views import CostDateViewSet
 
 router = DefaultRouter()
-router.register("costdates", CostDateViewSet)
+router.register("", CostDateViewSet)
 
 urlpatterns = [
     path("", include(router.urls)),
